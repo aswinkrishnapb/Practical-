@@ -111,5 +111,8 @@ aircrack-ng -a2 -b [Target BSSID] -w [password_Wordlist.txt] [WP2 PCAP file] (Fo
 #  Some extra work 
 ```
 Check RDP enabled after getting ip- nmap -p 3389 -iL ip.txt | grep open (ip.txt contains all the alive hosts from target subnet)
-Check MySQL service running- nmap -p 3306 -iL ip.txt | grep open        (ip.txt contains all the alive hosts from target subnet)
+Check MySQL service running- nmap -p 3306 -iL ip.txt | grep open        (ip.txt contains all the alive hosts from target subnet) 
+Static Malware Analysis Analyze ELF Executable File using Detect It Easy (DIE)
+Static Malware Analysis Find the Portable Executable (PE) Information of a Malware Executable File using PE Explorer
+Static Malware Analysis Perform Malware Disassembly using IDA and OllyDbg
 ```
