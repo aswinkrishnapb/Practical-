@@ -108,6 +108,30 @@ aircrack-ng [pcap file] (For cracking WEP network)
 aircrack-ng -a2 -b [Target BSSID] -w [password_Wordlist.txt] [WP2 PCAP file] (For cracking WPA2 or other networks through the captured .pcap file)
 
 ```
+# Cryptography
+```
+1 - BCTextEncoder
+2 - Cryptool Part
+3 - Veracrypt
+https://dencode.com/en/
+https://zxing.org/w/decode.jspx
+https://crackstation.net/
+https://www.tunnelsup.com/hash-analyzer/
+https://hashkiller.io/listmanager
+http://rc4.online-domain-tools.com/
+```
+# Stegnography
+```
+1 - steghide
+2 - zsteg
+3 - Strgcracker
+4 - stegoveritas
+https://stegonline.georgeom.net/checklist
+https://www.metadata2go.com/view-metadata
+https://futureboy.us/stegano/
+https://www.splitbrain.org/_static/ook/
+https://stegonline.georgeom.net/upload
+```
 #  Some extra work 
 ```
 Check RDP enabled after getting ip- nmap -p 3389 -iL ip.txt | grep open (ip.txt contains all the alive hosts from target subnet)
