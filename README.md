@@ -139,4 +139,12 @@ Check MySQL service running- nmap -p 3306 -iL ip.txt | grep open        (ip.txt 
 Static Malware Analysis Analyze ELF Executable File using Detect It Easy (DIE)
 Static Malware Analysis Find the Portable Executable (PE) Information of a Malware Executable File using PE Explorer
 Static Malware Analysis Perform Malware Disassembly using IDA and OllyDbg
+https://gtfobins.github.io
+find / -writable -type d 2>/dev/null : Find world-writeable folders
+find / -perm -222 -type d 2>/dev/null: Find world-writeable folders
+find / -perm -o w -type d 2>/dev/null: Find world-writeable folders
+find / -perm -o x -type d 2>/dev/null : Find world-executable folders
+find / -perm -u=s -type f 2>/dev/null: Find files with the SUID bit
+find / -type f -perm -04000 -ls 2>/dev/null will list files that have SUID or SGID bits set.
+
 ```
